@@ -1,5 +1,5 @@
 #!/bin/bash
 # Simple script to test Markdown transformation
 
-pandoc cloud.markdown -o clouf.rst
-pandoc cloud.markdown -o cloud.html
+pandoc cloud.md -o clouf.rst
+pandoc cloud.md -o cloud.html
