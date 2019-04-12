@@ -89,6 +89,15 @@ These Cloud services achieve these not only by using the latest and best technol
 ## **Google**
 
 ---
+Whether you're a hobbyist programmer, contractor, or CTO of a multinational corporation one of the things you'll ask yourself is how good is the price to performance ratio of the service you are investing in.
+  Google's cloud computing platform takes a minimalist approach to both its pricing as well as the services offered. Googles business model can be seen as using hefty discounts along with flexible software contr  acts in order to seize projects from their competitors in an attempt to corner shares in a market they had previously been late to. 
+#### Containers
+Googles simplistic approach to pricing and services should not be confused with their complex infrastructure. Google Cloud gains an advantage over its competitors in OS virtualization due to its development of
+  *_kubernetes_* container which is what all Amazon and Microsoft use for their cloud services today. Because of this working with Google Cloud will allow you immediate access to any new deployment or version of   the kubernetes container.
+#### Processing 
+  
+
+
 
 ## **Microsoft**
 
