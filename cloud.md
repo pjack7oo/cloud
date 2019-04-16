@@ -54,6 +54,11 @@ Another Positive that is overlooked is that by making our servers and whatever s
 
 There are three main types of Cloud Computing Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). IaaS is providing the essential infrastructure like storage, security, hosting, and processing, all while being the cheapest of the three.[^6] PaaS is a step above IaaS in that it includes all of IaaS except now we are also given development tools and a system to do it in.[^7] Lastly, SaaS includes the two before it with licensing and hosted centrally.[^8] Common uses of SaaS are office software and email software.
 
+## History of Cloud Computing
+
+Often times we think of the cloud as synonymous with an incorporeal entity made
+  up of thousands of remote data centers. We even believe it to be contingent on  the internets. However, the theory's that led to its existence were explored p  rior to the internet's creation. The ability for computers to communicate with  eachother was first written in as a requisite by the Defense Advanced Research  Projects Agency's funding of MIT's project MAC. MAC's purpose was to successfu  lly establish a one-to-many relationship between multiple users and a single c  omputer provided as an access point for sofware. This was done through a proce  ss known as hardware virtualization.            
+
 ![SaaS](images/what-is-saas.png)
 
 ## **Products**
