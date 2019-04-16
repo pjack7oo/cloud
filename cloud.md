@@ -8,8 +8,9 @@ Todo
 - [ ] Amazon
 - [ ] Google
 - [ ] Microsoft
+- [ ] Example use
 - [x] Table of contents
-- [ ] MLA FORMAT Images and sources
+- [x] MLA FORMAT Images and sources
 
 - [**Cloud Computing**](#cloud-computing)
   - [**General**](#general)
@@ -17,16 +18,15 @@ Todo
     - [**Amazon**](#amazon)
     - [**Google**](#google)
     - [**Microsoft**](#microsoft)
-    - [**Other**](#other)
+  - [**Other**](#other)
     - [**Example Use**](#example-use)
+    - [**Sources**](#sources)
 
 ---
 
 Cloud computing is a relatively new field in computer science, yet everything being learned and done with the internet was ultimately leading down to this. This is essentially because using the cloud is like using the internet. People use the internet nearly every day whether at work or at home saving pictures and documents or even looking at a website and a lot of the time they don't even know that they are using the cloud. However, Cloud computing is an important topic in distributed systems for many reasons. It helps solve a lot of problems in distributed systems in things like scalability, while implementing properties from distributed systems in their own systems. In this chapter we will go through general principles of cloud computing and what can be done with cloud computing. Afterwards, we will discuss popular cloud computing solutions being provided by companies Amazon, Google, and Microsoft. A nice addition is that all three of these comes with free trials so we can learn to use them for free. These cloud services can be public, enterprise, or both. Public clouds are allowed for any number of organizations and individuals, while Enterprise clouds are usually for one organization. For example, Amazon Web Services is currently the biggest public cloud service.[^2] Lastly, there will be other things related to cloud services briefly to be mention at the end.
 
 ![cloudComputing](images/Cloud-Computing-1.jpg)
-
-[^2]: [State of the cloud](https://www.geekwire.com/2018/state-cloud-amazon-web-services-bigger-four-major-competitors-combined/) date visited 4/7/19
 
 ## **General**
 
@@ -56,42 +56,31 @@ There are three main types of Cloud Computing Infrastructure as a Service (IaaS)
 
 ![SaaS](images/what-is-saas.png)
 
-[^1]: [What is cloud computing?](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/) date visited 4/4
-[^6]: [What is SaaS](https://azure.microsoft.com/en-us/overview/what-is-saas/) date visited 4/14
-[^7]: [What is PaaS](https://azure.microsoft.com/en-us/overview/what-is-paas/) date visited 4/14
-[^8]: [What is IaaS](https://azure.microsoft.com/en-us/overview/what-is-iaas/) date visited 4/14
-
 ## **Products**
 
 ---
 
-When it comes to cloud computing there are a lot of services that are shared among competitors. Services like processing, storage, hosting apps, databases management, and even AI. Yet no services are the same. Amazon Web Services has some cloud solutions that Microsoft Azure or Google Cloud doesn't have, and the same can go the other way. Since, all the services are trying to differentiate so they get more users and companies. So, it is important to know what services are needed for what we are trying to use the cloud so we can purchase the right services for the right problem.
+When it comes to cloud computing there are a lot of services that are shared among competitors. Services like processing, storage, hosting apps, databases management, and even AI. Yet no services are the same. Amazon Web Services has some cloud solutions that Microsoft Azure or Google Cloud doesn't have, and the same can go the other way. Since, all the services are trying to differentiate so they get more users and companies. So, it is important to know what services are needed for what we are trying to use the cloud so we can purchase the right services for the right problem. All three of the main competitors also give a lot of temporary free services to try and even learn, awhile also giving always free services for everyone indefinitely.
 
 ### **Amazon**
 
 ---
 
-Amazon is currently the biggest cloud service available in the market and still has a continuous growth.[^2] Offering a huge range of services with a pay per use service model has helped to build this service to become the largest. So, whether we are aiming to host something for peers or for work Amazon has what we need to build it. Even robotics, which is a solution only Amazon has.
-
-[^3]: [Amazon Web Services](https://aws.amazon.com/?nc2=h_lg) date visited 4/9
+Amazon is currently the biggest cloud service available in the market and still has a continuous growth.[^2] Offering a huge range of services with a pay per use service model has helped to build this service to become the largest. So, whether we are aiming to host something for peers or for work Amazon has what we need to build it. Even robotics, which is a solution only Amazon has. Amazon comes with an impressive learning library with a lot of documentation on its services and products.[^9]
 
 ### **Google**
 
 ---
 
-(note) An upside to Google cloud is the other products available from Google like Google maps, which Google cloud users can use in their apps and products.
-
-[^5]: [Google Cloud Services](https://cloud.google.com/products/#featured-products)
+An upside to Google cloud is the other products available from Google like Google maps or one of their other apps from an ever growing list, which can even be incorporated into our own apps and products. There is however a small downside because Google tends to lack good documentation, and while their Cloud documentation is better, it is not as clean and organized as the documentation provided by the other two companies.[^10]
 
 ### **Microsoft**
 
 ---
 
-(note) As a fourth type of Cloud Service Microsoft gives serverless computing.
+Microsoft Azure is similar to the other two in respect too services. Yet Microsoft has a lot of differences compared to the other two. As a fourth type of Cloud Service Microsoft gives server-less computing unlike the competitors, which just stick to the main three types of Cloud Computing. Plus, the documentation given by Microsoft not only has a simple and clean layout but is also easy to navigate around.[^11]
 
-[^4]: [Azure Services](https://azure.microsoft.com/en-us/solutions/) date visited 4/13
-
-### **Other**
+## **Other**
 
 ---
 
@@ -102,3 +91,27 @@ Amazon is currently the biggest cloud service available in the market and still 
 ### **Example Use**
 
 ---
+
+### **Sources**
+
+[^1]: “What Is Cloud Computing? A Beginner's Guide | Microsoft Azure.” *A Beginner's Guide | Microsoft Azure*, [azure.microsoft.com/en-us/overview/what-is-cloud-computing/](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/). Accessed 4 April 2019.
+
+[^2]: Krazit, Tom. “State of the Cloud: Amazon Web Services Is Bigger than Its Other Four Major Competitors, Combined.” *GeekWire*, 3 Aug. 2018, [www.geekwire.com/2018/state-cloud-amazon-web-services-bigger-four-major-competitors-combined/](https://www.geekwire.com/2018/state-cloud-amazon-web-services-bigger-four-major-competitors-combined/). Accessed 7 April 2019.
+
+[^3]: “Amazon Web Services (AWS) - Cloud Computing Services.” *Amazon*, [aws.amazon.com/?nc2=h_lg](https://aws.amazon.com/?nc2=h_lg). Accessed 9 April 2019.
+
+[^4]: “Azure Solutions.” *Microsoft Azure*, [azure.microsoft.com/en-us/solutions/](https://azure.microsoft.com/en-us/solutions/). Accessed 13 April 2019.
+
+[^5]: “Products & Services Google Cloud.” *Google*, [cloud.google.com/products/#featured-products](https://cloud.google.com/products/#featured-products). Accessed 13 April 2019.
+
+[^6]: “What Is SaaS? Software as a Service | Microsoft Azure.” *Software as a Service | Microsoft Azure*, [azure.microsoft.com/en-us/overview/what-is-saas/](https://azure.microsoft.com/en-us/overview/what-is-saas/). Accessed 14 April 2019.
+
+[^7]: “What Is PaaS? Platform as a Service | Microsoft Azure.” *Platform as a Service | Microsoft Azure*, [azure.microsoft.com/en-us/overview/what-is-paas/](https://azure.microsoft.com/en-us/overview/what-is-paas/). Accessed 14 April 2019.
+
+[^8]: “What Is IaaS? Infrastructure as a Service | Microsoft Azure.” *Infrastructure as a Service | Microsoft Azure*, [azure.microsoft.com/en-us/overview/what-is-iaas/](https://azure.microsoft.com/en-us/overview/what-is-iaas/). Accessed 14 April 2019.
+
+[^9]: "AWS Documentation" *Amazon*, [docs.aws.amazon.com/index.html?nc2=h_ql_doc](https://docs.aws.amazon.com/index.html?nc2=h_ql_doc). Accessed 16 April 2019.
+
+[^10]: "Google Cloud Platform Documentation" Google Cloud, *Google*, [cloud.google.com/docs/](https://cloud.google.com/docs/). Accessed 16 April 2019.
+
+[^11]: “Microsoft Azure Documentation.” *Microsoft Docs*, [docs.microsoft.com/en-us/azure/](https://docs.microsoft.com/en-us/azure/). Accessed 16 April 2019.
