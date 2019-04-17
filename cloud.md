@@ -104,7 +104,16 @@ Microsoft Azure is similar to the other two in respect too services. Yet Microso
 
 ### **Example Use**
 
+The prevalency of cloud computing comes from its processing power, scalability,   as well as its ability to use containers to create an OS agnostic development   environment. Here we will look at some real world example of how cloud computi  ng can aid in the creation of enterprise level sofware.
+
+#### **Getting Started** 
+First we must choose a cloud computing service to use. For these examples we wil  l be using Google Cloud for its user friendly infrastructure and installation.  To get started simply go to google cloud and sign up for an account. Afterward  s you'll be given a free trial with 300$ of credit. _note credit will expire a  fter 12 months_. Thats it we're ready to start working on our examples.
+
+#### Containers
+
+###  
 ---
+Cloud Computers 
 
 ### **Sources**
 
