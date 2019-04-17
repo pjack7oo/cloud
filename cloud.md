@@ -67,6 +67,16 @@ Often times we think of the cloud as synonymous with an incorporeal entity made
 
 When it comes to cloud computing there are a lot of services that are shared among competitors. Services like processing, storage, hosting apps, databases management, and even AI. Yet no services are the same. Amazon Web Services has some cloud solutions that Microsoft Azure or Google Cloud doesn't have, and the same can go the other way. Since, all the services are trying to differentiate so they get more users and companies. So, it is important to know what services are needed for what we are trying to use the cloud so we can purchase the right services for the right problem. All three of the main competitors also give a lot of temporary free services to try and even learn, awhile also giving always free services for everyone indefinitely.
 
+#### Containers
+Googles simplistic approach to pricing and services should not be confused with their complex infrastructure. Google Cloud gains an advantage over its competitors in OS virtualization due to its development of
+  *_kubernetes_* container which is what all Amazon and Microsoft use for their cloud services today. Because of this working with Google Cloud will allow you immediate access to any new deployment or version of   the kubernetes container.
+#### Processing 
+  
+
+
+
+An upside to Google cloud is the other products available from Google like Google maps or one of their other apps from an ever growing list, which can even be incorporated into our own apps and products. There is however a small downside because Google tends to lack good documentation, and while their Cloud documentation is better, it is not as clean and organized as the documentation provided by the other two companies.[^10]
+
 ### **Amazon**
 
 ---
@@ -78,15 +88,7 @@ Amazon is currently the biggest cloud service available in the market and still 
 ---
 Whether you're a hobbyist programmer, contractor, or CTO of a multinational corporation one of the things you'll ask yourself is how good is the price to performance ratio of the service you are investing in.
   Google's cloud computing platform takes a minimalist approach to both its pricing as well as the services offered. Googles business model can be seen as using hefty discounts along with flexible software contr  acts in order to seize projects from their competitors in an attempt to corner shares in a market they had previously been late to. 
-#### Containers
-Googles simplistic approach to pricing and services should not be confused with their complex infrastructure. Google Cloud gains an advantage over its competitors in OS virtualization due to its development of
-  *_kubernetes_* container which is what all Amazon and Microsoft use for their cloud services today. Because of this working with Google Cloud will allow you immediate access to any new deployment or version of   the kubernetes container.
-#### Processing 
-  
 
-
-
-An upside to Google cloud is the other products available from Google like Google maps or one of their other apps from an ever growing list, which can even be incorporated into our own apps and products. There is however a small downside because Google tends to lack good documentation, and while their Cloud documentation is better, it is not as clean and organized as the documentation provided by the other two companies.[^10]
 
 ### **Microsoft**
 
