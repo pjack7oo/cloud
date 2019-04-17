@@ -16,10 +16,10 @@ Todo
   - [General](#general)
   - [History of Cloud Computing](#history-of-cloud-computing)
   - [Products](#products)
+    - [Containers](#containers)
     - [Getting Started](#getting-started)
     - [Amazon](#amazon)
     - [Google](#google)
-      - [Containers](#containers)
       - [Processing](#processing)
     - [Microsoft](#microsoft)
       - [Example Use](#example-use)
@@ -73,6 +73,13 @@ When it comes to cloud computing there are a lot of services that are shared amo
 
 The prevalency of cloud computing comes from its processing power, scalability, as well as its ability to use containers to create an OS agnostic development environment. Here we will look at some real world example of how cloud computing can aid in the creation of enterprise level sofware.
 
+### Containers
+
+---
+
+Googles simplistic approach to pricing and services should not be confused with their complex infrastructure. Google Cloud gains an advantage over its competitors in OS virtualization due to its development of
+  *_kubernetes_* container which is what all Amazon and Microsoft use for their cloud services today. Because of this working with Google Cloud will allow you immediate access to any new deployment or version of the kubernetes container.
+
 ### Getting Started
 
 First we must choose a cloud computing service to use. For these examples we will be using Google Cloud for its user friendly infrastructure and installation. To get started simply go to google cloud and sign up for an account. Afterwards you'll be given a free trial with 300$ of credit. _note credit will expire after 12 months_. Thats it we're ready to start working on our examples.
@@ -89,13 +96,6 @@ Amazon is currently the biggest cloud service available in the market and still 
 
 Whether you're a hobbyist programmer, contractor, or CTO of a multinational corporation one of the things you'll ask yourself is how good is the price to performance ratio of the service you are investing in.
   Google's cloud computing platform takes a minimalist approach to both its pricing as well as the services offered. Googles business model can be seen as using hefty discounts along with flexible software contracts in order to seize projects from their competitors in an attempt to corner shares in a market they had previously been late to.
-
-#### Containers
-
----
-
-Googles simplistic approach to pricing and services should not be confused with their complex infrastructure. Google Cloud gains an advantage over its competitors in OS virtualization due to its development of
-  *_kubernetes_* container which is what all Amazon and Microsoft use for their cloud services today. Because of this working with Google Cloud will allow you immediate access to any new deployment or version of the kubernetes container.
 
 #### Processing
 
