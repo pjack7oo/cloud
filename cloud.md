@@ -1,4 +1,4 @@
-# **Cloud Computing**
+# Cloud Computing
 
 ---
 
@@ -12,18 +12,19 @@ Todo
 - [x] Table of contents
 - [x] MLA FORMAT Images and sources
 
-- [**Cloud Computing**](#cloud-computing)
-  - [**General**](#general)
-  - [**History of Cloud Computing**](#history-of-cloud-computing)
-  - [**Products**](#products)
-    - [**Amazon**](#amazon)
-    - [**Google**](#google)
-      - [**Containers**](#containers)
-      - [**Processing**](#processing)
-    - [**Microsoft**](#microsoft)
-      - [**Example Use**](#example-use)
-  - [**Other**](#other)
-    - [**Sources**](#sources)
+- [Cloud Computing](#cloud-computing)
+  - [General](#general)
+  - [History of Cloud Computing](#history-of-cloud-computing)
+  - [Products](#products)
+    - [Getting Started](#getting-started)
+    - [Amazon](#amazon)
+    - [Google](#google)
+      - [Containers](#containers)
+      - [Processing](#processing)
+    - [Microsoft](#microsoft)
+      - [Example Use](#example-use)
+  - [Other](#other)
+    - [Sources](#sources)
 
 ---
 
@@ -31,7 +32,7 @@ Cloud computing is a relatively new field in computer science, yet everything be
 
 ![cloud Computing](images/Cloud-Computing-1.jpg "Cloud Computing")
 
-## **General**
+## General
 
 ---
 
@@ -57,46 +58,52 @@ Another Positive that is overlooked is that by making our servers and whatever s
 
 There are three main types of Cloud Computing Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). IaaS is providing the essential infrastructure like storage, security, hosting, and processing, all while being the cheapest of the three.[^6] PaaS is a step above IaaS in that it includes all of IaaS except now we are also given development tools and a system to do it in.[^7] Lastly, SaaS includes the two before it with licensing and hosted centrally.[^8] Common uses of SaaS are office software and email software.
 
-## **History of Cloud Computing**
+## History of Cloud Computing
 
 Often times we think of the cloud as synonymous with an incorporeal entity made
   up of thousands of remote data centers. We even believe it to be contingent on  the internets. However, the theory's that led to its existence were explored prior to the internet's creation. The ability for computers to communicate with each other was first written in as a requisite by the Defense Advanced Research  Projects Agency's funding of MIT's project MAC. MAC's purpose was to successfully establish a one-to-many relationship between multiple users and a single computer provided as an access point for software. This was done through a process known as hardware virtualization.
 
 ![SaaS](images/what-is-saas.png "SaaS")
 
-## **Products**
+## Products
 
 ---
 
 When it comes to cloud computing there are a lot of services that are shared among competitors. Services like processing, storage, hosting apps, databases management, and even AI. Yet no services are the same. Amazon Web Services has some cloud solutions that Microsoft Azure or Google Cloud doesn't have, and the same can go the other way. Since, all the services are trying to differentiate so they get more users and companies. So, it is important to know what services are needed for what we are trying to use the cloud so we can purchase the right services for the right problem. All three of the main competitors also give a lot of temporary free services to try and even learn, awhile also giving always free services for everyone indefinitely.
 
-### **Amazon**
+The prevalency of cloud computing comes from its processing power, scalability, as well as its ability to use containers to create an OS agnostic development environment. Here we will look at some real world example of how cloud computing can aid in the creation of enterprise level sofware.
+
+### Getting Started
+
+First we must choose a cloud computing service to use. For these examples we will be using Google Cloud for its user friendly infrastructure and installation. To get started simply go to google cloud and sign up for an account. Afterwards you'll be given a free trial with 300$ of credit. _note credit will expire after 12 months_. Thats it we're ready to start working on our examples.
+
+### Amazon
 
 ---
 
 Amazon is currently the biggest cloud service available in the market and still has a continuous growth.[^2] Offering a huge range of services with a pay per use service model has helped to build this service to become the largest. So, whether we are aiming to host something for peers or for work Amazon has what we need to build it. Even robotics, which is a solution only Amazon has. Amazon comes with an impressive learning library with a lot of documentation on its services and products.[^9]
 
-### **Google**
+### Google
 
 ---
 
 Whether you're a hobbyist programmer, contractor, or CTO of a multinational corporation one of the things you'll ask yourself is how good is the price to performance ratio of the service you are investing in.
   Google's cloud computing platform takes a minimalist approach to both its pricing as well as the services offered. Googles business model can be seen as using hefty discounts along with flexible software contracts in order to seize projects from their competitors in an attempt to corner shares in a market they had previously been late to.
 
-#### **Containers**
+#### Containers
 
 ---
 
 Googles simplistic approach to pricing and services should not be confused with their complex infrastructure. Google Cloud gains an advantage over its competitors in OS virtualization due to its development of
   *_kubernetes_* container which is what all Amazon and Microsoft use for their cloud services today. Because of this working with Google Cloud will allow you immediate access to any new deployment or version of the kubernetes container.
 
-#### **Processing**
+#### Processing
 
 ---
   
 An upside to Google cloud is the other products available from Google like Google maps or one of their other apps from an ever growing list, which can even be incorporated into our own apps and products. There is however a small downside because Google tends to lack good documentation, and while their Cloud documentation is better, it is not as clean and organized as the documentation provided by the other two companies.[^10]
 
-### **Microsoft**
+### Microsoft
 
 ---
 
@@ -104,7 +111,7 @@ Microsoft Azure is similar to the other two in respect to services and usage. Ye
 
 ![Microsoft Azure](images/microsoft-azure-vector-logos-logo-zone-11212.png "Microsoft Azure logo")
 
-#### **Example Use**
+#### Example Use
 
 ---
 
@@ -282,24 +289,15 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
 
   This is optional but azure DevOps does give interesting deployment methods and options. Worth looking into, since it might be a useful skill.
 
-## **Other**
+## Other
 
-The prevalency of cloud computing comes from its processing power, scalability,   as well as its ability to use containers to create an OS agnostic development   environment. Here we will look at some real world example of how cloud computi  ng can aid in the creation of enterprise level sofware.
-
-#### **Getting Started** 
-First we must choose a cloud computing service to use. For these examples we wil  l be using Google Cloud for its user friendly infrastructure and installation.  To get started simply go to google cloud and sign up for an account. Afterward  s you'll be given a free trial with 300$ of credit. _note credit will expire a  fter 12 months_. Thats it we're ready to start working on our examples.
-
-#### Containers
-
-###  
 ---
-Cloud Computers 
 
   A recently new idea came about recently in cloud computing, one that is made for more personal and home use. The idea is using the cloud to play a game and stream it to a person's home. People would be able to enjoy their games wherever they want at the touch of a button and an internet connection. Another positive is that it will be a lot cheaper than buying a gaming computer, which is out of most people's price range. Companies like Google have been producing this technology for quite a while now. And with latest graphics cards being stronger than ever, one part of their problem is solved. There is however, one huge problem, bandwidth. Since, services like Google Stadia and others want to stream games at 4k Resolution, it takes a huge amount of bandwidth to keep a constant FPS and image quality. And while internet speeds have been going up, we have not reached a point where people have near gigabit speeds constantly. So even if a person can hit these speeds it is hard to keep them going constantly, especially in the day when other people are using the internet just as much as the person attempting to play games. This is still a very important part of cloud computing because it is pushing it further into what other things, we can accomplish with cloud computing.
 
   ![Google Stadia](images/Stadia-Final-Google.jpg "Google Stadia")
 
-### **Sources**
+### Sources
 
 [^1]: “What Is Cloud Computing? A Beginner's Guide | Microsoft Azure.” *A Beginner's Guide | Microsoft Azure*, [azure.microsoft.com/en-us/overview/what-is-cloud-computing/](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/). Accessed 4 April 2019.
 
