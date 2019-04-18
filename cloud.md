@@ -288,12 +288,12 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
 
   This is optional but azure DevOps does give interesting deployment methods and options. Worth looking into, since it might be a useful skill.
 
-  ####Examples Continued
+  #### Examples Continued
 
   **Getting Started**
 For this example we will be using Google Cloud for its user friendly infrastructure and installation. To get started        simply go to google cloud and sign up for an account. Afterwards you'll be given a free trial with 300$ of credit.        _note credit will expire a fter 12 months_. Thats it we're ready to start working on our examples.
 
-####Configuring multiple VM's
+#### Configuring multiple VM's
 Here we will learn how to configure two vm instances. Firse we'll create our instances to do this simply scroll down to     vm instances on the left hand side of the dashboard and click on VM instances. After which you will see a popup click     the create button on the popup.
 
 Next we'll enter the instance name. For this example we will call this instance backend as it will be the backend for our   app. **important**: _unless you will be building on top of the app being created click micro cpu under the dropdown       below as this machine type will incur the least amount of debt. 
