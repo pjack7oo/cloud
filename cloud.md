@@ -7,11 +7,11 @@
     - [Containers](#containers)
     - [Processing](#processing)
     - [Scalability](#scalability)
-    - [Amazon](#amazon)
-    - [Google](#google)
+    - [Amazon Web Services](#amazon-web-services)
+    - [Google Cloud](#google-cloud)
       - [Getting Started](#getting-started)
         - [Configuring multiple VM's](#configuring-multiple-vms)
-    - [Microsoft](#microsoft)
+    - [Microsoft Azure](#microsoft-azure)
       - [Example](#example)
   - [Other](#other)
     - [Sources](#sources)
@@ -74,13 +74,13 @@ An upside to cloud computing is its ability to virtualize hardware that a given 
 
 Along with processing powers cloud computing is unique in that the usage as hardware as an instance allow for immediate accessibility. For example if your application uses bottlenecks when performing a resource intensive tasks adding hardware is as quick as clicking a button. Compared to the one time expense of buying high-end hardware cloud computing proves not only to be quick but feasible. Imagine wanting to start a truck driving business delivering packages from pont A to B. The greatest initial cost you will encumber is the cost of the truck itself. It might be the case the alone is too expensive to payout at once so the owner chooses to rent the truck and pay with the profits generated. Cloud computing offers a similiar service rather than buying hardware outright you can instead rent the hardware needed for the given task. More importantly you can scale the hardware as the company makes more profit. To go back to our truck driving analogy this is like upgrading the trucks engine to do more deliveries as the business grows. Cloud Computing allows you to buy more features as you need them allowing businesses of all sizes to maximize profit through the building of scalable software.
 
-### Amazon
+### Amazon Web Services
 
 ---
 
-Amazon is currently the biggest cloud service available in the market and still has a continuous growth.[^2] So, whether we are aiming to host something for peers or for work Amazon has what we need to build it. Even robotics, which is a solution only Amazon has. Amazon also comes with an impressive learning library with a lot of documentation on its services and products.[^6]
+Amazon is currently the biggest cloud service available in the market and still has a continuous growth.[^2] So, whether we are aiming to host something for peers or for work Amazon has what we need to build it. Even robotics, which is a solution only Amazon has. Amazon also comes with an impressive learning library with a lot of documentation on its services and products.[^6] While, we have not given a specific example for Amazon Web Services a lot can be found [here](https://aws.amazon.com/getting-started/).
 
-### Google
+### Google Cloud
 
 ---
 
@@ -106,7 +106,7 @@ Next we will create the frontend instance. This will use the same configuration 
 
 Now we need to install MongoDB on our backend instance to store the data. Open the cloud console in the upper right hand corner of the screen.
 
-next we'll create our ssh key
+Next we'll create our ssh key
 
 ```bash
 gcloud compute --project "vmconfig" \
@@ -123,7 +123,7 @@ sudo apt get install mongodb
 
 ```
 
-mongo DB will verify its installation simply enter y
+Mongo DB will verify its installation simply enter y
 
 The DB is now currently running. Before changing how it runs we mus first stop it
 
@@ -141,7 +141,7 @@ sudo mkdir $HOME/db --port \
  /var/tmp/mongodb
 ```
 
- now we are ready to exit the ssh session
+Now we are ready to exit the ssh session
 
 ```bash
  exit
@@ -176,19 +176,19 @@ finally we will run our frontend app
     https://github.com/GoogleCloudPlatform/todomvc-mongodb.git
 ```
 
-  -install any dependencies related to the repository
+-install any dependencies related to the repository
 
-      ```bash
-      cd todomvc-mongodb; npm install
-      ```
+  ```bash
+  cd todomvc-mongodb; npm install
+  ```
 
-  -configure server
+-configure server
 
-    ```bash
-    sed -i -e 's/8080/80/g' server.js
-    ```
+  ```bash
+  sed -i -e 's/8080/80/g' server.js
+  ```
 
-  -start the application
+-start the application
 
   ```bash
     sudo nohup nodejs server.js --be_ip \
@@ -204,7 +204,7 @@ exit
 
 Remember to delete each of the two instances when you are done using them to avoid incurring payments.
 
-### Microsoft
+### Microsoft Azure
 
 ---
 

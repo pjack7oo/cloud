@@ -7,7 +7,7 @@ sphinx book chapter written in Markdown
 Todo
 
 - [x] General
-- [ ] Amazon
+- [x] Amazon
 - [x] Google
 - [x] Microsoft
 - [x] Example use
