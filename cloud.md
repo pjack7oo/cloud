@@ -19,9 +19,9 @@
 
 ---
 
-Cloud computing is a relatively new field in computer science, yet everything being learned and done with the internet was ultimately leading down to this. This is essentially because using the cloud is like using the internet. People use the internet nearly every day whether at work or at home saving pictures and documents or even looking at a website. A lot of the time they don't even know that they are using the cloud. Regardless, Cloud computing is an important topic in not only computer science but also in distributed systems for many reasons. Cloud computing implements distributed system properties like scalability. In this chapter we will go through the general principles of cloud computing and what can be done with cloud computing. Afterwards, we will discuss popular cloud computing solutions currently being provided by companies like Amazon, Google, and Microsoft. A nice addition is that all three of these comes with free trials so we can learn to use them for free. Lastly, there will be other things related to cloud services briefly to be mention at the end.
+Cloud computing is a relatively new field in computer science, yet everything being learned and done with the internet was ultimately leading down to this. This is essentially because using the cloud is like using the internet. People use the cloud nearly every day whether at work or at home saving pictures and documents or even looking at a website, without even realizing. Cloud computing is an important topic in not only computer science but also in distributed systems for many reasons. Cloud computing implements distributed system properties like scalability. In this chapter we will go through the general principles of cloud computing and what can be done with cloud computing. Afterwards, we will discuss popular cloud computing solutions currently being provided by companies like Amazon, Google, and Microsoft. A nice addition is that all three of these comes with free trials so we can learn to use them for free. Lastly, there will be other things related to cloud services briefly to be mention at the end.
 
-![cloud Computing](images/Cloud-Computing-1.jpg "Cloud Computing")[^12]
+![cloud Computing](images/Cloud-Computing-1.jpg "Cloud Computing")[^9]
 
 ## General
 
@@ -29,10 +29,10 @@ Cloud computing is a relatively new field in computer science, yet everything be
 
 In essence cloud computing is doing exactly what a computer and server does, except the services are on a different network across the internet. These services include but are not limited to processing, storage, software, intelligence, and databases. All this of course is done for a price, since most things unlike this book are not free. Yet even though it is not free that doesn't mean it is a bad thing since it means we are getting a high quality of service. The Cloud is also helpful for businesses since they don't always need to have their own servers to do something or can supplement their own servers further with minimal expansion by paying a company that runs a cloud service to do whatever they need done.[^1]
 
-There are a quite a bit of advantages pertaining to cloud computing:
+There are a quite a few advantages to cloud computing:
 
     -Speed
-      - All most immediately services are ready, so whenever we need it it's there
+      - All most immediately services are ready, so whenever we need it, it's there
     - Cost
       - Cloud Computing is a lot cheaper for users and companies then buying and setting up servers and storage
       - We don't have to spend money on electricity to power our own personal servers
@@ -45,15 +45,15 @@ There are a quite a bit of advantages pertaining to cloud computing:
     - Security
       - Servers are protected by their own security meaning users can spend less resources and money on security
 
-These Cloud services achieve these advantages by not only by using the latest and best technologies around but by also using common distributed system properties. For example, a lot of what is stored in cloud services is put onto multiple servers for data persistency that way if one server or even a few break, our files and applications will still be available for us and our clients. Additionally, since they use a lot of servers, they can make multiple do a single task like run a program or a website that way it can be used by a lot of users without lagging or crashing. That way if there aren't enough servers, a company or user can easily expand the cloud networks horizontally by adding more servers or processors. Since cloud servers are setup like this we will have fault Tolerance and low latency since things aren't being bottlenecked by a single central server. This fault tolerance and low latency that is built into cloud services means that we as the user will also have a low latency assuming our network is good and up to date. 
+Cloud services achieve these advantages by not only using the latest and best technologies around but by using common distributed system properties. For example, a lot of what is stored in cloud services is put onto multiple servers for data persistency, that way if one server or more servers happen to break, our files and applications will still be available for us and our clients. Additionally, since they use a lot of servers, they can make multiple do a single task like run a program or a website that way it can be used by a lot of users without lagging or crashing. That way if there aren't enough servers, a company or user can easily expand the cloud networks horizontally by adding more servers or processors. Since cloud servers are setup like this we will have fault Tolerance and low latency since things aren't being bottlenecked by a single central server. This fault tolerance and low latency that is built into cloud services means that we as the user will also have a low latency assuming our network is good and up to date.
 
 It's a lot easier to setup a simple and effective network compared to setting up distributed servers that run and store all our programs and data.
 
 Another positive that is overlooked is that by making our servers and whatever services we need on the cloud, we are making our systems global in extremely little time. Instead of having to waste time connecting servers over the internet. The cloud does all the heavy lifting so users can connect from where ever and receive whatever they need. Plus, it's a lot easier to setup a simple and effective network compared to setting up distributed servers that run and store all our programs and data. So connecting to a cloud services makes things a lot more easy.
 
-There are three main types of Cloud Computing Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). IaaS is providing the essential infrastructure like storage, security, hosting, and processing, all while being the cheapest of the three.[^6] PaaS is a step above IaaS in that it includes all of IaaS except now we are also given development tools and a system to do it in.[^7] Lastly, SaaS includes the two before it with licensing and hosted centrally.[^8] Common uses of SaaS are office software and email software.
+There are three main types of Cloud Computing Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). IaaS is providing the essential infrastructure like storage, security, hosting, and processing, all while being the cheapest of the three.[^3] PaaS is a step above IaaS in that it includes all of IaaS except now we are also given development tools and a system to do it in.[^4] Lastly, SaaS includes the two before it with licensing and hosted centrally.[^5] Common uses of SaaS are office software and email software.
 
-![SaaS](images/what-is-saas.png "SaaS")[^13]
+![SaaS](images/what-is-saas.png "SaaS")[^10]
 
 ## History of Cloud Computing
 
@@ -73,7 +73,7 @@ Googles simplistic approach to pricing and services should not be confused with 
 
 ### Processing
   
-An upside to cloud computing is its ability to virtualize hardware that a given organization may require to undertake processing intensive tasks. We can think of hardware virtualization as a component in somebody elses being put onto the internet. Any given individual or enterprise can rent an instance of this hardware for an indefinite period of time. The majority of these cloud computing services offer the ability to create GPU instances which can be used to process sizable datasets. Due to the internet gaining worldwide adoption big data has become more and more prevalent. Because of this processing power has gained more and more prevalence within areas such as: [^10]
+An upside to cloud computing is its ability to virtualize hardware that a given organization may require to undertake processing intensive tasks. We can think of hardware virtualization as a component in somebody elses being put onto the internet. Any given individual or enterprise can rent an instance of this hardware for an indefinite period of time. The majority of these cloud computing services offer the ability to create GPU instances which can be used to process sizable datasets. Due to the internet gaining worldwide adoption big data has become more and more prevalent. Because of this processing power has gained more and more prevalence within areas such as: [^7]
 
 #### Machine Learning
 
@@ -87,13 +87,13 @@ Along with processing powers Cloud Computing is unique in that the usage as hard
 
 ---
 
-Amazon is currently the biggest cloud service available in the market and still has a continuous growth.[^2] So, whether we are aiming to host something for peers or for work Amazon has what we need to build it. Even robotics, which is a solution only Amazon has. Amazon also comes with an impressive learning library with a lot of documentation on its services and products.[^9]
+Amazon is currently the biggest cloud service available in the market and still has a continuous growth.[^2] So, whether we are aiming to host something for peers or for work Amazon has what we need to build it. Even robotics, which is a solution only Amazon has. Amazon also comes with an impressive learning library with a lot of documentation on its services and products.[^6]
 
 ### Google
 
 ---
 
-Whether you're a hobbyist programmer, contractor, or CTO of a multinational corporation one of the things you'll ask yourself is how good is the price to performance ratio of the service you are investing in. Google's cloud computing platform takes a minimalist approach to both its pricing as well as the services offered. Googles business model can be seen as using hefty discounts along with flexible software contracts in order to seize projects from their competitors in an attempt to corner shares in a market they had previously been late to. Another upside to Google cloud is the other products available from Google like Google maps or one of their other apps from an ever growing list, which can even be incorporated into our own apps and products.[^10]
+Whether you're a hobbyist programmer, contractor, or CTO of a multinational corporation one of the things you'll ask yourself is how good is the price to performance ratio of the service you are investing in. Google's cloud computing platform takes a minimalist approach to both its pricing as well as the services offered. Googles business model can be seen as using hefty discounts along with flexible software contracts in order to seize projects from their competitors in an attempt to corner shares in a market they had previously been late to. Another upside to Google cloud is the other products available from Google like Google maps or one of their other apps from an ever growing list, which can even be incorporated into our own apps and products.[^7]
 
 #### Getting Started
 
@@ -103,13 +103,13 @@ First we must choose a Cloud Computing service to use. For these examples we wil
 
 ---
 
-Microsoft Azure is similar to the other two in respect to services and usage. Yet Microsoft has a few differences compared to the other two. As a fourth type of Cloud Service Microsoft gives serverless computing while the competitors currently have the main three types of Cloud Computing. Plus, the documentation given by Microsoft not only has a simple and clean layout but is also easy to navigate around.[^11]
+As stated before Microsoft Azure is similar to the other two in respect to services and usage. Yet Microsoft has a few differences compared to the other two. As a fourth type of Cloud Service Microsoft gives serverless computing while the competitors currently have the main three types of Cloud Computing. Plus, the documentation given by Microsoft not only has a simple and clean layout but is also easy to navigate around.[^8]
 
 ![Microsoft Azure](images/microsoft-azure-vector-logos-logo-zone-11212.png "Microsoft Azure logo")
 
 #### Example Use
 
-For the sake of the example we will be using Microsoft Azure. There are minor differences between this and the rest but as a whole you do and can do the same things on all three. An upside to Microsoft Azure is its serverless option, which lets us execute and run code without creating a web virtual machine making testing and learning faster and easier. Though A little bit on creating a virtual machine will be covered at the end of the example. To start we want to make sure to have an IDE installed like Visual Studio Code, but any others could also work. It is also necessary to have the **Azure CLI**, which can be found [here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest). Additionally, the language used for the code example is **Node.js** so, download it [here](https://nodejs.org/en/) if you need it also. Some current IDEs like Visual Studio Code even have extensions for Microsoft Azure to make things easier. It is still recommended to learn through the command line because the IDE we are using can be different in the future, yet the command line commands will still be the same. **.Net** framework is also needed but usually comes pre-installed on most computers.
+For the sake of the example we will be using Microsoft Azure. An upside to Microsoft Azure is its serverless option, which lets us execute and run code without creating a web virtual machine making testing and learning faster and easier. Though A little bit on creating a virtual machine will be covered at the end of the example. To start we want to make sure to have an IDE installed like Visual Studio Code, but any others could also work. It is also necessary to have the **Azure CLI**, which can be found [here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest). Additionally, the language used for the code example is **Node.js** so, download it [here](https://nodejs.org/en/) if you need it also. Some current IDEs like Visual Studio Code even have extensions for Microsoft Azure to make things easier. It is still recommended to learn through the command line because the IDE we are using can be different in the future, yet the command line commands will still be the same. **.Net** framework is also needed but usually comes pre-installed on most computers.
 
 The first step to be done is to setup Azure Function Core Tools.
 
@@ -291,7 +291,7 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
 
   A recently new idea came about recently in cloud computing, one that is made for more personal and home use. The idea is using the cloud to play a game and stream it to a person's home. People would be able to enjoy their games wherever they want at the touch of a button and an internet connection. Another positive is that it will be a lot cheaper than buying a gaming computer, which is out of most people's price range. Companies like Google have been producing this technology for quite a while now. And with latest graphics cards being stronger than ever, one part of their problem is solved. There is however, one huge problem, bandwidth. Since, services like Google Stadia and others want to stream games at 4k Resolution, it takes a huge amount of bandwidth to keep a constant FPS and image quality. And while internet speeds have been going up, we have not reached a point where people have near gigabit speeds constantly. So even if a person can hit these speeds it is hard to keep them going constantly, especially in the day when other people are using the internet just as much as the person attempting to play games. This is still a very important part of cloud computing because it is pushing it further into what other things, we can accomplish with cloud computing.
 
-  ![Google Stadia](images/1920px-Stadia_logo.svg.png "Google Stadia")
+  ![Google Stadia](images/Stadia_logo.svg "Google Stadia")
 
 ### Sources
 
@@ -299,24 +299,18 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
 
 [^2]: Krazit, Tom. “State of the Cloud: Amazon Web Services Is Bigger than Its Other Four Major Competitors, Combined.” *GeekWire*, 3 Aug. 2018, [www.geekwire.com/2018/state-cloud-amazon-web-services-bigger-four-major-competitors-combined/](https://www.geekwire.com/2018/state-cloud-amazon-web-services-bigger-four-major-competitors-combined/). Accessed 7 April 2019.
 
-[^3]: “Cloud Computing Services.” *Amazon Web Services*, Amazon [aws.amazon.com/?nc2=h_lg](https://aws.amazon.com/?nc2=h_lg). Accessed 9 April 2019.
+[^3]: “What Is SaaS?” *Software as a Service | Microsoft Azure*, Microsoft, [azure.microsoft.com/en-us/overview/what-is-saas/](https://azure.microsoft.com/en-us/overview/what-is-saas/). Accessed 14 April 2019.
 
-[^4]: “Azure Solutions.” *Microsoft Azure*, Microsoft, [azure.microsoft.com/en-us/solutions/](https://azure.microsoft.com/en-us/solutions/). Accessed 13 April 2019.
+[^4]: “What Is PaaS?” *Platform as a Service | Microsoft Azure*, [azure.microsoft.com/en-us/overview/what-is-paas/](https://azure.microsoft.com/en-us/overview/what-is-paas/). Accessed 14 April 2019.
 
-[^5]: “Products & Services Google Cloud.” *Google Cloud*, Google, [cloud.google.com/products/#featured-products](https://cloud.google.com/products/#featured-products). Accessed 13 April 2019.
+[^5]: “What Is IaaS?” *Infrastructure as a Service | Microsoft Azure*, [azure.microsoft.com/en-us/overview/what-is-iaas/](https://azure.microsoft.com/en-us/overview/what-is-iaas/). Accessed 14 April 2019.
 
-[^6]: “What Is SaaS?” *Software as a Service | Microsoft Azure*, Microsoft, [azure.microsoft.com/en-us/overview/what-is-saas/](https://azure.microsoft.com/en-us/overview/what-is-saas/). Accessed 14 April 2019.
+[^6]: "AWS Documentation" *Amazon Web Services*, Amazon [docs.aws.amazon.com/index.html?nc2=h_ql_doc](https://docs.aws.amazon.com/index.html?nc2=h_ql_doc). Accessed 16 April 2019.
 
-[^7]: “What Is PaaS?” *Platform as a Service | Microsoft Azure*, [azure.microsoft.com/en-us/overview/what-is-paas/](https://azure.microsoft.com/en-us/overview/what-is-paas/). Accessed 14 April 2019.
+[^7]: "Google Cloud Platform Documentation" *Google Cloud*, Google, [cloud.google.com/docs/](https://cloud.google.com/docs/). Accessed 16 April 2019.
 
-[^8]: “What Is IaaS?” *Infrastructure as a Service | Microsoft Azure*, [azure.microsoft.com/en-us/overview/what-is-iaas/](https://azure.microsoft.com/en-us/overview/what-is-iaas/). Accessed 14 April 2019.
+[^8]: “Microsoft Azure Documentation.” *Microsoft Docs*, Microsoft, [docs.microsoft.com/en-us/azure/](https://docs.microsoft.com/en-us/azure/). Accessed 16 April 2019.
 
-[^9]: "AWS Documentation" *Amazon Web Services*, Amazon [docs.aws.amazon.com/index.html?nc2=h_ql_doc](https://docs.aws.amazon.com/index.html?nc2=h_ql_doc). Accessed 16 April 2019.
+[^9]: Thinkwik. “Cloud Computing digital image.” **Medium**, Medium, 19 Oct. 2018, [medium.com/@thinkwik/how-edge-and-fog-computing-are-taking-over-traditional-cloud-computing-b26b7276f1ce](https://medium.com/@thinkwik/how-edge-and-fog-computing-are-taking-over-traditional-cloud-computing-b26b7276f1ce).
 
-[^10]: "Google Cloud Platform Documentation" *Google Cloud*, Google, [cloud.google.com/docs/](https://cloud.google.com/docs/). Accessed 16 April 2019.
-
-[^11]: “Microsoft Azure Documentation.” *Microsoft Docs*, Microsoft, [docs.microsoft.com/en-us/azure/](https://docs.microsoft.com/en-us/azure/). Accessed 16 April 2019.
-
-[^12]: Thinkwik. “Cloud Computing digital image.” **Medium**, Medium, 19 Oct. 2018, [medium.com/@thinkwik/how-edge-and-fog-computing-are-taking-over-traditional-cloud-computing-b26b7276f1ce](https://medium.com/@thinkwik/how-edge-and-fog-computing-are-taking-over-traditional-cloud-computing-b26b7276f1ce).
-
-[^13]: “What Is SaaS digital image” *Microsoft Azure*, Microsoft, [azure.microsoft.com/en-us/overview/what-is-saas/](https://azure.microsoft.com/en-us/overview/what-is-saas/).
+[^10]: “What Is SaaS digital image” *Microsoft Azure*, Microsoft, [azure.microsoft.com/en-us/overview/what-is-saas/](https://azure.microsoft.com/en-us/overview/what-is-saas/).
