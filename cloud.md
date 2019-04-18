@@ -6,18 +6,15 @@
   - [Products](#products)
     - [Containers](#containers)
     - [Processing](#processing)
-      - [Machine Learning](#machine-learning)
-      - [Finance](#finance)
     - [Scalability](#scalability)
     - [Amazon](#amazon)
     - [Google](#google)
       - [Getting Started](#getting-started)
+        - [Configuring multiple VM's](#configuring-multiple-vms)
     - [Microsoft](#microsoft)
-      - [Example Use](#example-use)
+      - [Example](#example)
   - [Other](#other)
     - [Sources](#sources)
-
----
 
 Cloud computing is a relatively new field in computer science, yet everything being learned and done with the internet was ultimately leading down to this. This is essentially because using the cloud is like using the internet. People use the cloud nearly every day whether at work or at home saving pictures and documents or even looking at a website, without even realizing. Cloud computing is an important topic in not only computer science but also in distributed systems for many reasons. Cloud computing implements distributed system properties like scalability. In this chapter we will go through the general principles of cloud computing and what can be done with cloud computing. Afterwards, we will discuss popular cloud computing solutions currently being provided by companies like Amazon, Google, and Microsoft. A nice addition is that all three of these comes with free trials so we can learn to use them for free. Lastly, there will be other things related to cloud services briefly to be mention at the end.
 
@@ -61,27 +58,21 @@ Often times we think of the cloud as synonymous with an incorporeal entity made 
 
 ## Products
 
----
-
 When it comes to cloud computing there are a lot of services that are shared among competitors. Services like processing, storage, hosting apps, databases management, and even AI. Yet no services are the same. Amazon Web Services has some cloud solutions that Microsoft Azure or Google Cloud doesn't have, and the same can go the other way. Since, all the services are trying to differentiate so they get more users and companies. So, it is important to know what services are needed for what we are trying to use the cloud so we can purchase the right services for the right problem. All three of the main competitors also give a lot of temporary free services to try and learn how to use them, while also giving always free services for everyone indefinitely.
 
 The prevalence of cloud computing comes from its processing power, scalability, as well as its ability to use containers to create an OS agnostic development environment. Here we will look at some real world example of how cloud computing can aid in the creation of enterprise level software.
 
 ### Containers
 
-Googles simplistic approach to pricing and services should not be confused with their complex infrastructure. Google Cloud gains an advantage over its competitors in OS virtualization due to its development of *_kubernetes_* container which is what all Amazon and Microsoft use for their cloud services today. Because of this working with Google Cloud will allow you immediate access to any new deployment or version of the kubernetes container.
+Google Cloud gains an advantage over its competitors in OS virtualization due to its development of *_kubernetes_* container which is what all Amazon and Microsoft use for their cloud services today. Because of this working with Google Cloud will allow you immediate access to any new deployment or version of the kubernetes container. However, you will still be able to use it on the others just not on the latest patch.
 
 ### Processing
   
-An upside to cloud computing is its ability to virtualize hardware that a given organization may require to undertake processing intensive tasks. We can think of hardware virtualization as a component in somebody elses being put onto the internet. Any given individual or enterprise can rent an instance of this hardware for an indefinite period of time. The majority of these cloud computing services offer the ability to create GPU instances which can be used to process sizable datasets. Due to the internet gaining worldwide adoption big data has become more and more prevalent. Because of this processing power has gained more and more prevalence within areas such as: [^7]
-
-#### Machine Learning
-
-#### Finance
+An upside to cloud computing is its ability to virtualize hardware that a given organization may require to undertake processing intensive tasks. We can think of hardware virtualization as a component in somebody elses being put onto the internet. Any given individual or enterprise can rent an instance of this hardware for an indefinite period of time. The majority of these cloud computing services offer the ability to create GPU instances which can be used to process sizable datasets. Due to the internet gaining worldwide adoption big data has become more and more prevalent. Because of this processing power has gained more and more prevalence within areas such as **Machine Learning** and **Finance**.[^10]
 
 ### Scalability
 
-Along with processing powers Cloud Computing is unique in that the usage as hardware as an instance allow for immediate accessibility. For example if your application uses bottlenecks when performing a resource intensive tasks adding hardware is as quick as clicking a button. Compared to the one time expense of buying high-end hardware Cloud Computing proves not only to be quick but feasible.
+Along with processing powers cloud computing is unique in that the usage as hardware as an instance allow for immediate accessibility. For example if your application uses bottlenecks when performing a resource intensive tasks adding hardware is as quick as clicking a button. Compared to the one time expense of buying high-end hardware cloud computing proves not only to be quick but feasible. Imagine wanting to start a truck driving business delivering packages from pont A to B. The greatest initial cost you will encumber is the cost of the truck itself. It might be the case the alone is too expensive to payout at once so the owner chooses to rent the truck and pay with the profits generated. Cloud computing offers a similiar service rather than buying hardware outright you can instead rent the hardware needed for the given task. More importantly you can scale the hardware as the company makes more profit. To go back to our truck driving analogy this is like upgrading the trucks engine to do more deliveries as the business grows. Cloud Computing allows you to buy more features as you need them allowing businesses of all sizes to maximize profit through the building of scalable software.
 
 ### Amazon
 
@@ -93,11 +84,125 @@ Amazon is currently the biggest cloud service available in the market and still 
 
 ---
 
-Whether you're a hobbyist programmer, contractor, or CTO of a multinational corporation one of the things you'll ask yourself is how good is the price to performance ratio of the service you are investing in. Google's cloud computing platform takes a minimalist approach to both its pricing as well as the services offered. Googles business model can be seen as using hefty discounts along with flexible software contracts in order to seize projects from their competitors in an attempt to corner shares in a market they had previously been late to. Another upside to Google cloud is the other products available from Google like Google maps or one of their other apps from an ever growing list, which can even be incorporated into our own apps and products.[^7]
+Googles simplistic approach to pricing and services should not be confused with their complex infrastructure. So, whether you're a hobbyist programmer, contractor, or CTO of a multinational corporation one of the things you'll ask yourself is how good is the price to performance ratio of the service you are investing in. Google's cloud computing platform takes a minimalist approach to both its pricing as well as the services offered. Googles business model can be seen as using hefty discounts along with flexible software contracts in order to seize projects from their competitors in an attempt to corner shares in a market they had previously been late to. Another upside to Google cloud is the other products available from Google like Google maps or one of their other apps from an ever growing list, which can even be incorporated into our own apps and products.[^7]
 
 #### Getting Started
 
-First we must choose a Cloud Computing service to use. For these examples we will be using Google Cloud for its user friendly infrastructure and installation. To get started simply go to google cloud and sign up for an account. Afterwards you'll be given a free trial with 300$ of credit. _note credit will expire after 12 months_. Thats it we're ready to start working on our examples.
+For these examples we will be using Google Cloud for its user friendly infrastructure and installation. To get started simply go to google cloud and sign up for an account. Afterwards you'll be given a free trial with 300$ of credit. _note credit will expire after 12 months_. Thats it we're ready to start working on our examples.
+
+##### Configuring multiple VM's
+
+Here we will learn how to configure two vm instances. First, we'll create our instances to do this simply scroll down to vm instances on the left hand side of the dashboard and click on VM instances. After which you will see a popup click the create button on the popup.
+
+Next we'll enter the instance name. For this example we will call this instance backend as it will be the backend for our app. **important**: _unless you will be building on top of the app being created click micro cpu under the dropdown below as this machine type will incur the least amount of debt.
+
+Next we will select our boot disk, this is the virtualized instance our machine will boot off of. For this tutorial we will be picking Ubuntu 14.04 LTS
+
+Afterwards we will check the Allow HTTP traffic this will allow us to make requests to and from our backend database.
+
+From this point on you will incur incremental charges for as log as the instance remains active. These charges are negligible and will be covered as long as it doesn't exceed the credit we are given by google for creating our account.
+
+Next we will create the frontend instance. This will use the same configuration as our backend instance.
+
+Now we need to install MongoDB on our backend instance to store the data. Open the cloud console in the upper right hand corner of the screen.
+
+next we'll create our ssh key
+
+```bash
+gcloud compute --project "vmconfig" \
+    ssh --zone <backend-zone> \
+    <backend-name>
+```
+
+Once ssh finishes installing we will install our backend
+
+```bash
+sudo apt-get install update
+
+sudo apt get install mongodb
+
+```
+
+mongo DB will verify its installation simply enter y
+
+The DB is now currently running. Before changing how it runs we mus first stop it
+
+```bash
+sudo service mongodb stop
+
+```
+
+Next we will run our mongodb database in the background on port 80
+
+```bash
+
+sudo mkdir $HOME/db --port \
+80 --fork --logpath
+ /var/tmp/mongodb
+```
+
+ now we are ready to exit the ssh session
+
+```bash
+ exit
+```
+
+ next we'll connect the frontend similar to the backend
+
+```bash
+ gcloud compute --project "vmconfig" \
+    ssh --zone <frontend-zone> \
+    <frontend-name>
+```
+
+install our dependencies
+
+```bash
+sudo apt-get update
+
+
+curl -sL \
+    https://deb.nodesource.com/setup_6.x \
+    | sudo -E bash -
+
+sudo apt-get install git nodejs
+```
+
+finally we will run our frontend app
+
+```bash
+  -clone the application
+    git clone \
+    https://github.com/GoogleCloudPlatform/todomvc-mongodb.git
+```
+
+  -install any dependencies related to the repository
+
+      ```bash
+      cd todomvc-mongodb; npm install
+      ```
+
+  -configure server
+
+    ```bash
+    sed -i -e 's/8080/80/g' server.js
+    ```
+
+  -start the application
+
+  ```bash
+    sudo nohup nodejs server.js --be_ip \
+    <backend-internal-ip> --fe_ip \
+    <frontend-internal-ip> &
+  ```
+
+We're now finished and ready to exit our ssh session.
+
+```bash
+exit
+```
+
+Remember to delete each of the two instances when you are done using them to avoid incurring payments.
 
 ### Microsoft
 
@@ -107,7 +212,7 @@ As stated before Microsoft Azure is similar to the other two in respect to servi
 
 ![Microsoft Azure](images/microsoft-azure-vector-logos-logo-zone-11212.png "Microsoft Azure logo")
 
-#### Example Use
+#### Example
 
 For the sake of the example we will be using Microsoft Azure. An upside to Microsoft Azure is its serverless option, which lets us execute and run code without creating a web virtual machine making testing and learning faster and easier. Though A little bit on creating a virtual machine will be covered at the end of the example. To start we want to make sure to have an IDE installed like Visual Studio Code, but any others could also work. It is also necessary to have the **Azure CLI**, which can be found [here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest). Additionally, the language used for the code example is **Node.js** so, download it [here](https://nodejs.org/en/) if you need it also. Some current IDEs like Visual Studio Code even have extensions for Microsoft Azure to make things easier. It is still recommended to learn through the command line because the IDE we are using can be different in the future, yet the command line commands will still be the same. **.Net** framework is also needed but usually comes pre-installed on most computers.
 
@@ -161,13 +266,13 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
 
   `func new`
 
-  A helpful tip with Azure is to change the `authLevel` to "anonymous" in **function.json**, which was just created by the command, so you can work with the function without a function key that is always needed. Another file created by the function command is `index.js`. Index.js is module that will be ran by the function.
+  A helpful tip with Azure is to change the `authLevel` to "anonymous" in **function.json**, which was just created by the command, so you can work with the function without a function key that is always needed. Another file created by the function command is `index.js`. Index.js is code that will be ran by the function.
 
   We now have a working function that can be ran locally.
 
   `func host start`
 
-  This will return quite a lot of lines, but the key lines to look for are that the **job host started** and the link given a few lines below.
+  This will return quite a lot of lines, but the key lines to look for are that the **job host started**.
 
   ```node
   [4/17/2019 4:14:05 AM] Host initialized (188ms)
@@ -189,7 +294,7 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
   Please pass a name on the query string or in the request body
   ```
 
-  And if we add `?name=<yourname>` we will get a different response.
+  So, if we add `?name=<yourname>` we will get a different response.
 
   ```text
   Hello <yourname>
@@ -197,7 +302,7 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
 
   And calling `control+C` we can end the local server running in our terminal.
 
-  Now that we know that the function is working, we can now login to Azure to actually start publish the function to Microsoft Azure for it to be stored and ran on the cloud. To login we just need to call `az login`, which will bring you to a browser to login into Microsoft Azure. Afterwards we need to create a resource group to contain everything including our function. A few arguments are needed. `--name`, `--location`. To figure out locations there is command to run to list all the server locations with the argument `--sku FREE` to only search for free locations that we can use with our free trial.
+  Now that we know that the function is working, we can now login to Azure to setup actually publish it to Microsoft Azure for it to be stored and ran on the cloud. To login we just need to call `az login`, which will bring you to a browser to login into Microsoft Azure. Afterwards we need to create a resource group to contain everything like our function. A few arguments are needed. `--name`, `--location`. To figure out locations there is command to run to list all the server locations with the argument `--sku FREE` to only search for free locations that we can use with our free trial.
 
   `az appservice list-locations --sku FREE`
 
@@ -205,11 +310,11 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
 
   `az group create --name myFirstResourceGroup --location CentralUs`
 
-  Afterwards we need create the storage needed by our function using the resource group we just made and its location. Again, like last time we can use a `--sku` and `--kind` to pick out the exact type of storage we want. We need to use `Standard_LRS` for `--sku`, since we are trying to make a function app, but we can skip `--kind`, since its default is fine for our project needs. Additionally, the name chosen needs to be globally unique.
+  Afterwards we can create the storage needed by our function using the resource group we just made and its location. Again ,like last time we can use a `--sku` and `--kind` to pick out exact type of storage we want. We need to use `Standard_LRS` for `--sku`, since we are trying to make a function app, but we can skip `--kind`, since its default is fine Our name needs to be globally unique.
 
   `az storage account create --name storagegroup1 --location CentralUs --resource-group MyFirstResourceGroup --sku Standard_LRS`
 
-  We can now create function application to host the function we made. This application can also store multiple functions so if we ever add more we can have it still under the same application. Just like the storage creation we need a unique name. The new arguments needed for this command are `--consumption-plan-location`, which is just the location we picked, and `--runtime`, which is the language we chose.
+  We can now create function application to host the function we made. Just like the storage creation we need a unique name. The new arguments needed for this command are `--consumption-plan-location`, which is just the location we picked, and `--runtime`, which is the language we chose.
 
   `az functionapp create --name myFirstExampleFunctions --resource-group myFirstResourceGroup --storage-account storagegroup1 --consumption-plan-location CentralUS --runtime node`
 
@@ -256,7 +361,7 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
 
   If you want to delete this ResourceGroup, storage, and function you can call `az group delete --name MyFirstResourceGroup` and accept with `y`.
   
-  We can also connect our repository to Microsoft's version control using git. First, we need to create a **Azure DevOps Account**, which is free and can be done [here](https://azure.microsoft.com/en-us/services/devops/), and do not forget to create a project. Next, initialize a git using `git init .` and make an initial commit.
+  We can also connect our repository to a version control like using git. First, we need to create a **Azure DevOps Account**, which is free and can be done [here](https://azure.microsoft.com/en-us/services/devops/), and do not forget to create a project. Next initialize a git using `git init .` and make an initial commit.
 
   ```bash
   git add *
@@ -281,9 +386,7 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
 
   `git push origin master`
 
-  This is optional but azure DevOps does give interesting deployment methods and options. Worth looking into, since it might be a useful tool.
-
-  To create a virtual machine we can simply use the `az vm create` command and give it some arguments including: `--resource-group`, `--name`, `image`, `--admin-username`, `--generate-ssh-keys`. These let you create the vm and give you access to it. Please keep in mind that it takes a few minutes to make a vm. We can then call commands like `az vm open-port` to allow tcp connections on a certain port. That way we can do more than just using the ssh-keys.
+  This is optional but azure DevOps does give interesting deployment methods and options. Worth looking into, since it might be a useful skill.
 
 ## Other
 
