@@ -67,10 +67,6 @@ Googles simplistic approach to pricing and services should not be confused with 
   
 An upside to cloud computing is its ability to virtualize hardware that a given organization may require to undertake processing intensive tasks. We can think of hardware virtualization as a component in somebody elses being put onto the internet. Any given individual or enterprise can rent an instance of this hardware for an indefinite period of time. The majority of these cloud computing services offer the ability to create GPU instances which can be used to process sizable datasets. Due to the internet gaining worldwide adoption big data has become more and more prevalent. Because of this processing power has gained more and more prevalence within areas such as: [^10]
 
-#### Machine Learning
-
-#### Finance
-
 ### Scalability
 
 Along with processing powers Cloud Computing is unique in that the usage as hardware as an instance allow for immediate accessibility. For example if your application uses bottlenecks when performing a resource intensive tasks adding hardware is as quick as clicking a button. Compared to the one time expense of buying high-end hardware Cloud Computing proves not only to be quick but feasible.
