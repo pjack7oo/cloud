@@ -54,7 +54,7 @@ There are three main types of Cloud Computing Infrastructure as a Service (IaaS)
 
 ## History of Cloud Computing
 
-Often times we think of the cloud as synonymous with an incorporeal entity made up of thousands of remote data centers. We even believe it to be contingent on the internet. However, the theory's that led to its existence were explored prior to the internet's creation. The ability for computers to communicate with each other was first written in as a requisite by the Defense Advanced Research Projects Agency's funding of MIT's project MAC. MAC's purpose was to successfully establish a one-to-many relationship between multiple users and a single computer provided as an access point for software. This was done through a process known as hardware virtualization.
+Often times we think of the cloud as synonymous with an incorporeal entity made up of thousands of remote data centers. We even believe it to be contingent on the internet. However, the theory's that led to its existence were explored prior to the internet's creation. The ability for computers to communicate with each other was first written in as a requisite by the Defense Advanced Research Projects Agency's funding of MIT's project MAC. MAC's purpose was to successfully establish a one-to-many relationship between multiple users and a single computer provided as an access point for software. This was done through a process known as hardware virtualization. The development of the internet changed what we call hardware virtualization rather than refering to a physical location the computers themselves became virtualized. This opened new opportunities for the creation of file sharing systems notably saleforces distribution of software to end users over the internet. This became the beginning of an industry wide revolution that would allow people to distribute resources in new ways. 
 
 ## Products
 
@@ -64,7 +64,7 @@ The prevalence of cloud computing comes from its processing power, scalability, 
 
 ### Containers
 
-Google Cloud gains an advantage over its competitors in OS virtualization due to its development of *_kubernetes_* container which is what all Amazon and Microsoft use for their cloud services today. Because of this working with Google Cloud will allow you immediate access to any new deployment or version of the kubernetes container. However, you will still be able to use it on the others just not on the latest patch.
+Most cloud computing services use the open source platform known as Kubernetes. Because of this cloud computing services are able to cluster together multiple linux containers due to Kubernetes ability automate linux container operations. Kubernetes was originally developed by google as such google cloud will always be more up to date with newer versions of the Kubernetes platform. This allows you to scale applications that span accross multiple containers.
 
 ### Processing
   
@@ -417,3 +417,8 @@ Now that we have installed Azure Core Tools, we can create a function, which is 
 [^9]: Thinkwik. “Cloud Computing digital image.” **Medium**, Medium, 19 Oct. 2018, [medium.com/@thinkwik/how-edge-and-fog-computing-are-taking-over-traditional-cloud-computing-b26b7276f1ce](https://medium.com/@thinkwik/how-edge-and-fog-computing-are-taking-over-traditional-cloud-computing-b26b7276f1ce).
 
 [^10]: “What Is SaaS digital image” *Microsoft Azure*, Microsoft, [azure.microsoft.com/en-us/overview/what-is-saas/](https://azure.microsoft.com/en-us/overview/what-is-saas/).
+
+[^11]: “What Is Kubernetes” *Redhat*, [redhat.com/en/topics/containers/what-is-kubernetes](https://www.redhat.com/en/topics/containers/what-is-kubernetes).
+
+[^12]: “A brief History Of Cloud Computing” *dataversity*, [dataversity.net/brief-history-cloud-computing/](https://www.dataversity.net/brief-history-cloud-computing/).
+
